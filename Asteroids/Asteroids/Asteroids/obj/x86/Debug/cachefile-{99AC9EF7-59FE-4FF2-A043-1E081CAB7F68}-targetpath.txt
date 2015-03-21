@@ -1,0 +1,4 @@
+Content\AsteroidObj.xnb
+Content\Asteroid.xnb
+Content\UraniumOre.xnb
+Content\Uranium.xnb

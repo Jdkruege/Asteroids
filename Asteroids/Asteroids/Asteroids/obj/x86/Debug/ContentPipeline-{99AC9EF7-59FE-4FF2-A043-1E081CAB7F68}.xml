@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>AsteroidObj.fbx</Source>
+      <Name>AsteroidObj</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\AsteroidObj.xnb</Output>
+      <Time>2015-03-20T21:23:27.8122598-05:00</Time>
+      <Dependency>
+        <Key>C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\obj\x86\Debug\AsteroidObj_0.xml</Key>
+        <Value>2015-03-20T21:23:34.7556569-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Asteroid.jpg</Source>
+      <Name>Asteroid</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\Asteroid.xnb</Output>
+      <Time>2015-03-20T15:32:17.152087-05:00</Time>
+    </Item>
+    <Item>
+      <Source>AsteroidObj.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\obj\x86\Debug\AsteroidObj_0.xml</Output>
+      <Time>2015-03-20T21:23:27.8122598-05:00</Time>
+    </Item>
+    <Item>
+      <Source>UraniumOre.fbx</Source>
+      <Name>UraniumOre</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\UraniumOre.xnb</Output>
+      <Time>2015-03-20T21:54:30.9888274-05:00</Time>
+      <Dependency>
+        <Key>C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\obj\x86\Debug\UraniumOre_0.xml</Key>
+        <Value>2015-03-20T21:54:35.7450994-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Uranium.jpg</Source>
+      <Name>Uranium</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\Uranium.xnb</Output>
+      <Time>2015-03-20T21:48:17.7464792-05:00</Time>
+    </Item>
+    <Item>
+      <Source>UraniumOre.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\obj\x86\Debug\UraniumOre_0.xml</Output>
+      <Time>2015-03-20T21:54:30.9888274-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{99AC9EF7-59FE-4FF2-A043-1E081CAB7F68}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\AsteroidsContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-01-25T09:32:06.698115-06:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
