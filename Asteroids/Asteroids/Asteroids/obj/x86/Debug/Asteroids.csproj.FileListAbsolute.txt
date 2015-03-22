@@ -5,6 +5,8 @@ C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\obj\x8
 C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\obj\x86\Debug\Asteroids.exe
 C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\obj\x86\Debug\Asteroids.pdb
-C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\AsteroidObj.xnb
-C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\UraniumOre.xnb
 C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\Uranium.xnb
+C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\Gate.xnb
+C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\AsteroidTexture .xnb
+C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\UraniumTexture.xnb
+C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\GateTexture.xnb

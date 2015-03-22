@@ -52,12 +52,11 @@ namespace Asteroids
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // TODO: use this.Content to load your game content here
-            //model = Content.Load<Model>("GregSphere");
-            //model = Content.Load<Model>("AsteroidObj");
-            //texture = Content.Load<Texture2D>("Asteroid");
-            model = Content.Load<Model>("UraniumOre");
-            texture = Content.Load<Texture2D>("Uranium");
+            //model = Content.Load<Model>("Asteroid");
+            //model = Content.Load<Model>("Uranium");
+            model = Content.Load<Model>("Gate");
+            
+            
         }
 
         /// <summary>
@@ -79,6 +78,8 @@ namespace Asteroids
             // Allows the game to exit
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
+
+            world = Matrix.Multiply(world, Matrix.CreateRotationY(MathHelper.ToRadians(.66f)));            
 
             // TODO: Add your update logic here
             base.Update(gameTime);
