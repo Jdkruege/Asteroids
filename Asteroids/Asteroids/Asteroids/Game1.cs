@@ -54,9 +54,9 @@ namespace Asteroids
 
             //model = Content.Load<Model>("Asteroid");
             //model = Content.Load<Model>("Uranium");
-            model = Content.Load<Model>("Gate");
-            
-            
+            model = Content.Load<Model>("AsteroidLarge1");
+            texture = Content.Load<Texture2D>("Metal");
+ 
         }
 
         /// <summary>

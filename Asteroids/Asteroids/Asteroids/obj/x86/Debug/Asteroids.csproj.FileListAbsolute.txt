@@ -1,12 +1,20 @@
-C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\Asteroid.xnb
 C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Asteroids.exe
 C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Asteroids.pdb
 C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\obj\x86\Debug\Asteroids.csprojResolveAssemblyReference.cache
 C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\obj\x86\Debug\Asteroids.exe
 C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\obj\x86\Debug\Asteroids.pdb
-C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\Uranium.xnb
-C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\Gate.xnb
-C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\AsteroidTexture .xnb
 C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\UraniumTexture.xnb
-C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\GateTexture.xnb
+C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\AsteroidLarge1.xnb
+C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\AsteroidMedium1.xnb
+C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\AsteroidSmall1.xnb
+C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\Missile.xnb
+C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\Asteroid.xnb
+C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\AsteroidLarge2.xnb
+C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\AsteroidLarge3.xnb
+C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\AsteroidMedium2.xnb
+C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\AsteroidMedium3.xnb
+C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\AsteroidSmall2.xnb
+C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\AsteroidSmall3.xnb
+C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\Metal.xnb
+C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\Metal_0.xnb
