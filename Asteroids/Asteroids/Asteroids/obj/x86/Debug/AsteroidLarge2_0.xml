@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>Cube</Name>
     <Identity>
-      <SourceFilename>C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\AsteroidsContent\AsteroidLarge2.fbx</SourceFilename>
+      <SourceFilename>C:\Users\Jonat_000\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\AsteroidsContent\AsteroidLarge2.fbx</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>1 0 0 0 0 -1.33158053E-07 -1 0 0 1 -1.33158053E-07 0 0 0 0 1</Transform>
@@ -27,7 +27,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>Material</Name>
       <Identity>
-        <SourceFilename>C:\Users\Jonathan Krueger\Desktop\Asteroids\Asteroids\Asteroids\AsteroidsContent\AsteroidLarge2.fbx</SourceFilename>
+        <SourceFilename>C:\Users\Jonat_000\Desktop\Asteroids\Asteroids\Asteroids\Asteroids\AsteroidsContent\AsteroidLarge2.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

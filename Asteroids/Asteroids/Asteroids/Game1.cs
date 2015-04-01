@@ -18,11 +18,11 @@ namespace Asteroids
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        private Model model;
         private Matrix world = Matrix.CreateTranslation(new Vector3(0, 0, 0));
         private Matrix view = Matrix.CreateLookAt(new Vector3(0, 0, 5f), new Vector3(0, 0, 0), Vector3.UnitY);
         private Matrix projection = Matrix.CreatePerspectiveFieldOfView(MathHelper.ToRadians(45), 800f / 480f, 0.1f, 100f);
-        private Texture2D texture;
+
+        private List<DynamicObject> _DynamicObjList;
 
         public Game1()
         {
@@ -93,28 +93,9 @@ namespace Asteroids
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            DrawModel(model, world, view, projection);
+            foreach(DynamicObject obj in )
 
             base.Draw(gameTime);
-        }
-
-        private void DrawModel(Model model, Matrix world, Matrix view, Matrix projection)
-        {
-            foreach (ModelMesh mesh in model.Meshes)
-            {
-
-                foreach (BasicEffect effect in mesh.Effects)
-                {
-                    effect.EnableDefaultLighting();
-                    effect.World = world;
-                    effect.View = view;
-                    effect.Projection = projection;
-                    effect.TextureEnabled = true;
-                    effect.Texture = texture;
-                }
-
-                mesh.Draw();
-            }
         }
     }
 }
