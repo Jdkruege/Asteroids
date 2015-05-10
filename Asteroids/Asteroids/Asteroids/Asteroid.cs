@@ -1,20 +1,19 @@
-﻿using Microsoft.Xna.Framework;
+﻿using BEPUphysics.Entities;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using BEPUphysics;
-using BEPUphysics.Entities;
 
 namespace Asteroids
 {
-    class DynamicObject
+    class Asteroid
     {
         private Drawable _drawObj;
         public Entity entity;
 
-        public DynamicObject(Game game, Entity e,  Model model, Texture2D texture)
+        public Asteroid(Game game, Entity e,  Model model, Texture2D texture)
         {
             _drawObj = new Drawable(game, model, texture);
             entity = e;
@@ -26,6 +25,5 @@ namespace Asteroids
 
             _drawObj.Draw(worldMat, viewMat);
         }
-
     }
 }

@@ -61,11 +61,6 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
     </Compile>
-    <Compile Include="AsteroidLarge3.fbx">
-      <Name>AsteroidLarge3</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-    </Compile>
     <Compile Include="AsteroidMedium2.fbx">
       <Name>AsteroidMedium2</Name>
       <Importer>FbxImporter</Importer>
