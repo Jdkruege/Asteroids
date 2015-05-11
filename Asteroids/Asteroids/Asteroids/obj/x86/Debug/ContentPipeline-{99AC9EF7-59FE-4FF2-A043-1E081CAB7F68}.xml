@@ -68,19 +68,6 @@
       </Dependency>
     </Item>
     <Item>
-      <Source>AsteroidMedium3.fbx</Source>
-      <Name>AsteroidMedium3</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Video Game Workspace\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\AsteroidMedium3.xnb</Output>
-      <Time>2015-05-07T16:08:32.7043778-05:00</Time>
-      <Dependency>
-        <Key>C:\Video Game Workspace\Asteroids\Asteroids\Asteroids\Asteroids\obj\x86\Debug\AsteroidMedium3_0.xml</Key>
-        <Value>2015-05-10T10:33:52.787597-05:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
       <Source>AsteroidSmall1.fbx</Source>
       <Name>AsteroidSmall1</Name>
       <Importer>FbxImporter</Importer>
@@ -104,19 +91,6 @@
       <Dependency>
         <Key>C:\Video Game Workspace\Asteroids\Asteroids\Asteroids\Asteroids\obj\x86\Debug\AsteroidSmall2_0.xml</Key>
         <Value>2015-05-10T10:33:52.9175972-05:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>AsteroidSmall3.fbx</Source>
-      <Name>AsteroidSmall3</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Video Game Workspace\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\AsteroidSmall3.xnb</Output>
-      <Time>2015-05-07T16:08:32.7133783-05:00</Time>
-      <Dependency>
-        <Key>C:\Video Game Workspace\Asteroids\Asteroids\Asteroids\Asteroids\obj\x86\Debug\AsteroidSmall3_0.xml</Key>
-        <Value>2015-05-10T10:33:52.9775973-05:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -168,13 +142,6 @@
       <Time>2015-05-07T16:08:32.6993775-05:00</Time>
     </Item>
     <Item>
-      <Source>AsteroidMedium3.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Video Game Workspace\Asteroids\Asteroids\Asteroids\Asteroids\obj\x86\Debug\AsteroidMedium3_0.xml</Output>
-      <Time>2015-05-07T16:08:32.7043778-05:00</Time>
-    </Item>
-    <Item>
       <Source>AsteroidSmall1.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
@@ -187,13 +154,6 @@
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>C:\Video Game Workspace\Asteroids\Asteroids\Asteroids\Asteroids\obj\x86\Debug\AsteroidSmall2_0.xml</Output>
       <Time>2015-05-07T16:08:32.7093781-05:00</Time>
-    </Item>
-    <Item>
-      <Source>AsteroidSmall3.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Video Game Workspace\Asteroids\Asteroids\Asteroids\Asteroids\obj\x86\Debug\AsteroidSmall3_0.xml</Output>
-      <Time>2015-05-07T16:08:32.7133783-05:00</Time>
     </Item>
     <Item>
       <Source>AsteroidMedium1.fbx</Source>
@@ -224,6 +184,35 @@
       <Options>None</Options>
       <Output>C:\Video Game Workspace\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\Metal_0.xnb</Output>
       <Time>2015-05-07T16:08:32.7193786-05:00</Time>
+    </Item>
+    <Item>
+      <Source>BoundaryBox.fbx</Source>
+      <Name>BoundaryBox</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Video Game Workspace\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\BoundaryBox.xnb</Output>
+      <Time>2015-05-10T20:48:32.8353321-05:00</Time>
+      <Dependency>
+        <Key>C:\Video Game Workspace\Asteroids\Asteroids\Asteroids\Asteroids\obj\x86\Debug\BoundaryBox_0.xml</Key>
+        <Value>2015-05-10T20:53:04.0780272-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>BoundaryBox.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Video Game Workspace\Asteroids\Asteroids\Asteroids\Asteroids\obj\x86\Debug\BoundaryBox_0.xml</Output>
+      <Time>2015-05-10T20:48:32.8353321-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Basic.spritefont</Source>
+      <Name>Basic</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Video Game Workspace\Asteroids\Asteroids\Asteroids\Asteroids\bin\x86\Debug\Content\Basic.xnb</Output>
+      <Time>2015-05-10T21:06:15.7110352-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

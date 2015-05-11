@@ -66,11 +66,6 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
     </Compile>
-    <Compile Include="AsteroidMedium3.fbx">
-      <Name>AsteroidMedium3</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-    </Compile>
     <Compile Include="AsteroidSmall1.fbx">
       <Name>AsteroidSmall1</Name>
       <Importer>FbxImporter</Importer>
@@ -78,11 +73,6 @@
     </Compile>
     <Compile Include="AsteroidSmall2.fbx">
       <Name>AsteroidSmall2</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-    </Compile>
-    <Compile Include="AsteroidSmall3.fbx">
-      <Name>AsteroidSmall3</Name>
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
     </Compile>
@@ -99,6 +89,20 @@
       <Name>Missile</Name>
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BoundaryBox.fbx">
+      <Name>BoundaryBox</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Basic.spritefont">
+      <Name>Basic</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />

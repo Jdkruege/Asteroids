@@ -81,6 +81,7 @@
     <Reference Include="System.Net" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InfoTag.cs" />
     <Compile Include="Missile.cs" />
     <Compile Include="MissileFactory.cs" />
     <Compile Include="AsteroidFactory.cs" />

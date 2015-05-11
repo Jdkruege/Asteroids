@@ -12,11 +12,14 @@ namespace Asteroids
     {
         private Drawable _drawObj;
         public Entity entity;
+        public enum Size { Large, Medium, Small };
+        public Size size;
 
-        public Asteroid(Game game, Entity e,  Model model, Texture2D texture)
+        public Asteroid(Game game, Size size, Entity e,  Model model, Texture2D texture)
         {
             _drawObj = new Drawable(game, model, texture);
             entity = e;
+            this.size = size;
         }
 
         public void Draw(Matrix viewMat)

@@ -11,10 +11,12 @@ namespace Asteroids
     class Player
     {
         public Entity entity;
+        public int respawns;
 
         public Player(Entity e)
         {
             entity = e;
+            respawns = 3;
         }
 
         public void SetPosition(Vector3 vec)

@@ -29,9 +29,9 @@ namespace Asteroids
             this.texture = texture;
         }
 
-        public Missile ConstructMissile(Matrix world, Vector3 linVel)
+        public Missile ConstructMissile(int id, Matrix world, Vector3 linVel)
         {
-            Sphere asteroid = new Sphere(MatrixHelpers.VectorToVector(new Vector3(0, 0, 0)), radius, mass)
+            Sphere missile = new Sphere(MatrixHelpers.VectorToVector(new Vector3(0, 0, 0)), radius, mass)
             {
                 Material = material,
                 LinearDamping = 0f,
@@ -40,7 +40,12 @@ namespace Asteroids
                 LinearVelocity = MatrixHelpers.VectorToVector(linVel)
             };
 
-            return new Missile(game, asteroid, model, texture);
+            InfoTag tag = new InfoTag() { name = "Missile", id = id };
+
+            missile.Tag = tag;
+            missile.CollisionInformation.Tag = tag;
+
+            return new Missile(game, missile, model, texture);
         }
     }
 }
