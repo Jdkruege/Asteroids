@@ -29,16 +29,15 @@ namespace Asteroids
             this.texture = texture;
         }
 
-        public Missile ConstructMissile(Vector3 pos, Vector3 axis, float angle, Vector3 linVel, Vector3 anglVel)
+        public Missile ConstructMissile(Matrix world, Vector3 linVel)
         {
-            Sphere asteroid = new Sphere(MatrixHelpers.VectorToVector(pos), radius, mass)
+            Sphere asteroid = new Sphere(MatrixHelpers.VectorToVector(new Vector3(0, 0, 0)), radius, mass)
             {
                 Material = material,
                 LinearDamping = 0f,
                 AngularDamping = 0f,
-                Orientation = MatrixHelpers.QuaternionToQuaternion(Quaternion.CreateFromAxisAngle(axis, angle)),
-                LinearVelocity = MatrixHelpers.VectorToVector(linVel),
-                AngularVelocity = MatrixHelpers.VectorToVector(anglVel)
+                WorldTransform = MatrixHelpers.MatrixToMatrix(world),
+                LinearVelocity = MatrixHelpers.VectorToVector(linVel)
             };
 
             return new Missile(game, asteroid, model, texture);

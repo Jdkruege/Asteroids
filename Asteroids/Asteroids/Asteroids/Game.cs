@@ -45,6 +45,10 @@ namespace Asteroids
 
         private MissileFactory missileFactory;
 
+        private float timeSinceLaunch = 0;
+
+        private Random rand;
+
         public Game()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -64,6 +68,8 @@ namespace Asteroids
             base.Initialize();
 
             this.Services.AddService(typeof(Microsoft.Xna.Framework.Matrix), projection);
+
+            rand = new Random(System.DateTime.Now.Millisecond + System.DateTime.Now.Second + System.DateTime.Now.Minute + System.DateTime.Now.Hour + System.DateTime.Now.Day + System.DateTime.Now.Month + System.DateTime.Now.Year);
         }
 
         /// <summary>
@@ -140,25 +146,49 @@ namespace Asteroids
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || KeyboardState.IsKeyDown(Keys.Escape))
                 this.Exit();
 
+            timeSinceLaunch += gameTime.ElapsedGameTime.Milliseconds;
+
             if(gameStart)
             {
-                //Asteroid ast = smallFactory.ConstructAsteroid(true, new Microsoft.Xna.Framework.Vector3(-5, 0, 0), new Microsoft.Xna.Framework.Vector3(0, 1, 0), 30, new Microsoft.Xna.Framework.Vector3(5, 0, 0), new Microsoft.Xna.Framework.Vector3(0, 2, 0));
-                //space.Add(ast.entity);
-                //_Asteroids.Add(ast);
-
-                //ast = smallFactory.ConstructAsteroid(true, new Microsoft.Xna.Framework.Vector3(5, 0, 0), new Microsoft.Xna.Framework.Vector3(0, 1, 0), -30, new Microsoft.Xna.Framework.Vector3(-5, 0, 0), new Microsoft.Xna.Framework.Vector3(0, -2, 0));
-                //space.Add(ast.entity);
-                //_Asteroids.Add(ast);
-
-                Missile mis = missileFactory.ConstructMissile(new Microsoft.Xna.Framework.Vector3(0, 0, 0), new Microsoft.Xna.Framework.Vector3(0, 0, 0), 0, new Microsoft.Xna.Framework.Vector3(0, 0, 0), new Microsoft.Xna.Framework.Vector3(0, 0, 0));
-                space.Add(mis.entity);
-                _Missiles.Add(mis);
+                for(int i = 0; i < 50; i++)
+                {
+                    if (i < 10)
+                    {
+                        Asteroid ast = largeFactory.ConstructAsteroid(true, new Microsoft.Xna.Framework.Vector3(0, 0, 0), new Microsoft.Xna.Framework.Vector3(0, 0, 0), 0, new Microsoft.Xna.Framework.Vector3(0, 0, 0), new Microsoft.Xna.Framework.Vector3(0, 2, 0));
+                        space.Add(ast.entity);
+                        _Asteroids.Add(ast);
+                    }
+                    else if (i < 30)
+                    {
+                        Asteroid ast = mediumFactory.ConstructAsteroid(true, new Microsoft.Xna.Framework.Vector3(0, 0, 0), new Microsoft.Xna.Framework.Vector3(0, 0, 0), 0, new Microsoft.Xna.Framework.Vector3(0, 0, 0), new Microsoft.Xna.Framework.Vector3(0, 2, 0));
+                        space.Add(ast.entity);
+                        _Asteroids.Add(ast);
+                    }
+                    else
+                    {
+                        Asteroid ast = smallFactory.ConstructAsteroid(true, new Microsoft.Xna.Framework.Vector3(0, 0, 0), new Microsoft.Xna.Framework.Vector3(0, 0, 0), 0, new Microsoft.Xna.Framework.Vector3(0, 0, 0), new Microsoft.Xna.Framework.Vector3(0, 2, 0));
+                        space.Add(ast.entity);
+                        _Asteroids.Add(ast);
+                    }
+                }
 
                 gameStart = false;
             }
 
             KeyboardState = Keyboard.GetState();
             MouseState = Mouse.GetState();
+
+            if(MouseState.LeftButton == ButtonState.Pressed && timeSinceLaunch > 500)
+            {
+                BEPUutilities.Matrix mat = camera.WorldMatrix;
+                mat = BEPUutilities.Matrix.CreateTranslation(new BEPUutilities.Vector3(0, 0, -5)) * mat;
+
+                Missile miss = missileFactory.ConstructMissile(MatrixHelpers.MatrixToMatrix(mat), MatrixHelpers.VectorToVector(camera.WorldMatrix.Forward * 10));
+                space.Add(miss.entity);
+                _Missiles.Add(miss);
+
+                timeSinceLaunch = 0;
+            }
 
             camera.Update((float)gameTime.ElapsedGameTime.TotalSeconds);
 
